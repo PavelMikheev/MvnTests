@@ -18,6 +18,7 @@ public class LoginTests extends TestBase {
 
     @BeforeMethod
     public void initTests() {
+        log4j.info("LoginTest:@BeforeMethod initTests()");
         loginPage = PageFactory.initElements (driver, LoginPageHelper.class);
         boardsPage = PageFactory.initElements(driver, BoardsPageHelper.class);
         homePage = PageFactory.initElements(driver, HomePageHelper.class);
@@ -27,22 +28,37 @@ public class LoginTests extends TestBase {
 
     }
 
+    @Test
+    public void loginNegativeLoginEmpty() {
+        log4j.startTestCase("loginNegativeLoginEmpty()");
+        loginPage.enterLoginAndPasswordPressLoginButton("", PASSWORD);
+        log4j.info("------Test case was finished----");
+        Assert.assertEquals(loginPage.getErrorMessage(), "Missing email");
+
+
+    }
+
 
     @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderSecond")
-    public void loginNegativeLoginEmpty(String login, String password, String message) {
+    public void loginNegativeLoginEmpty2(String login, String password, String message) {
+        log4j.startTestCase("loginNegativeLoginEmpty()");
+        log4j.info("Parameter login - "+login);
+        log4j.info("Parameter password - "+password);
+        log4j.info("Parameter message - "+message);
+
         loginPage.enterLoginAndPasswordPressLoginButton(login, password);
        Assert.assertEquals(loginPage.getErrorMessage(), message);
 
 
     }
 
-    @Test
-    public void loginPasswordIncorrect() {
-        loginPage.enterLoginAndPasswordPressLoginButton("user77","password1");
-        loginPage.waitUntilPageWithErrorVisible();
-        Assert.assertEquals(loginPage.getErrorMessage(), "There isn't an account for this username",
-                "The error message is not 'There isn't an account for this username'");
+    @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderThird")
+    public void loginNegativeLoginEmpty3(String login, String password) {
+        loginPage.enterLoginAndPasswordPressLoginButton(login, password);
+        Assert.assertEquals(loginPage.getErrorMessage(), "There isn't an account for this username");
     }
+
+
 
 
     @Test

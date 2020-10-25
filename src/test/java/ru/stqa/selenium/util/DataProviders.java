@@ -43,17 +43,16 @@ public class DataProviders {
     public Iterator<Object[]> dataProviderThird() {
         List<Object[]> data = new ArrayList();
 
-        for(int i = 0; i < 4; ++i) {
-            data.add(new Object[]{this.generateRandomName(),this.generateRandomPassword()});
+        for (int i = 0; i < 4; ++i) {
+            data.add(new Object[]{this.generateRandomName(), this.generateRandomPassword()});
         }
 
         return data.iterator();
     }
 
-
     private Object generateRandomName() {
 
-        return "demo" + (new Random()).nextInt()+"@gmail.com";
+        return "demo" + (new Random()).nextInt() + "@gmail.com";
     }
 
     private Object generateRandomPassword() {
@@ -62,6 +61,37 @@ public class DataProviders {
     }
 
     @DataProvider
+    public Iterator<Object[]> dataProviderCreateList() {
+        List<Object[]> data = new ArrayList();
+
+        for (int i = 0; i < 4; ++i) {
+            data.add(new Object[]{this.generateRandomListName()});
+        }
+
+        return data.iterator();
+    }
+
+
+    public static String generateRandomListName(){
+    //private Object generateRandomListName() {
+
+        Random gen = new Random();
+        char[] alphabet =
+                "abcdefghijklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ1234567890".toCharArray();
+      String result = "";
+       for (int i=0; i < 8; i++) {
+        result = result + alphabet[gen.nextInt(alphabet.length)];
+
+               }
+           return result;
+
+       // return new Random().nextInt() + "@gmail.com";
+    }
+
+
+
+
+  /* @DataProvider
     public static Iterator<Object[]> dataProviderCreateList() throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(
                 DataProviders.class
@@ -75,7 +105,7 @@ public class DataProviders {
         }
         in.close();
         return userData.iterator();
-    }
+    } */
 
 
 }

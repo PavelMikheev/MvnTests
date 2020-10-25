@@ -45,7 +45,7 @@ public class ActivityTests extends TestBase {
     @Test
     public void checkLastRecordActivity() {
         qaHaifa7currentBoard.addNewList();
-        qaHaifa7currentBoard.nameForNewListTest();
+        qaHaifa7currentBoard.nameForNewListTest("name");
         qaHaifa7currentBoard.clickAddListButton();
         activityMenu.waitUntilListAdded();
         qaHaifa7currentBoard.waitUntilListsAreVisible();

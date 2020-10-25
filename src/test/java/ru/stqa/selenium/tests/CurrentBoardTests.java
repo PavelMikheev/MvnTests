@@ -49,8 +49,8 @@ ActivityHelper activityMenu;
     public void NewListPositiveTest(String name) {
 
         int qtyListsBeforeAdding = qaHaifa7currentBoard.getQtyOfLists();
-        qaHaifa7currentBoard.addNewListInBoard();
-        activityMenu.waitUntilListAdded();
+        qaHaifa7currentBoard.addNewListInBoard(name);
+      //activityMenu.waitUntilListAdded();
         int qtyListAfterAdding = qaHaifa7currentBoard.getQtyOfLists();
         Assert.assertEquals(qtyListAfterAdding, qtyListsBeforeAdding+1);
     }
@@ -59,11 +59,11 @@ ActivityHelper activityMenu;
 
 
     @Test
-    public void DeletingListPositiveTest() {
+    public void DeletingListPositiveTest(String name) {
 
         if (qaHaifa7currentBoard.getListQtyBeforeDeleting() == 0){
             //if there are no lists add one more list
-            qaHaifa7currentBoard.addNewListInBoard();
+            qaHaifa7currentBoard.addNewListInBoard(name);
             qaHaifa7currentBoard.finishAddingNewList();
 
         }
@@ -80,8 +80,8 @@ ActivityHelper activityMenu;
 
 
     @Test
-    public void addingListAndCardToList() {
-        qaHaifa7currentBoard.addNewListInBoard();
+    public void addingListAndCardToList(String name) {
+        qaHaifa7currentBoard.addNewListInBoard(name);
         activityMenu.waitUntilListAdded();
         qaHaifa7currentBoard.waitUntilListsAreVisible();
         qaHaifa7currentBoard.clickListActionButton();

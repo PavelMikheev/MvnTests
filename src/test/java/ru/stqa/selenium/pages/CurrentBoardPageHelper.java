@@ -61,11 +61,11 @@ public class CurrentBoardPageHelper extends PageBase{
         addList.click();
     }
 
-    public void nameForNewListTest() {
+    public void nameForNewListTest(String name) {
         waitUntilElementIsClickable(listTitle, 15);
         listTitle.click();
         listTitle.clear();
-        listTitle.sendKeys("test");
+        listTitle.sendKeys(name);
     }
 
     public void addNewList() {
@@ -134,10 +134,10 @@ public class CurrentBoardPageHelper extends PageBase{
         return driver.findElements(By.xpath("//div[@class='list js-list-content']")).size();
     }
 
-    public void addNewListInBoard() {
-        addNewList();
-        nameForNewListTest();
-        clickAddListButton();
+    public void addNewListInBoard(String name) {
+        this.addNewList();
+        this.nameForNewListTest(name);
+        this.clickAddListButton();
     }
 
     public void waitUntilListsAreVisible() {

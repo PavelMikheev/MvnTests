@@ -45,14 +45,17 @@ public class LoginPageHelper extends PageBase{
     }
 
     public void pressLoginButton() {
-        //press login button
+        log4j.info("LoginPageHelper: pressLoginButton()");
+        log4j.info("Wait 5 sec ");
         waitUntilElementIsClickable(loginButton,15);
-       // WebElement loginButton = driver.findElement(By.id("login"));
+        log4j.info("Click on the login button ");
         loginButton.click();
     }
 
 
     public void enterPassword(String password) {
+        log4j.info("LoginPageHelper: not a password(password="+password+")");
+        log4j.info("Enter password value to the password field ");
         waitUntilElementIsClickable(passwordField, 15);
         passwordField.click();
         passwordField.clear();
@@ -61,13 +64,15 @@ public class LoginPageHelper extends PageBase{
 
 
     public void enterLogin(String login) {
-        //WebElement loginField = driver.findElement(By.id("user"));
+        log4j.info("LoginPageHelper: not a login(login="+login+")");
+            log4j.info("Enter login value to the login field ");
         loginField.click();
         loginField.clear();
         loginField.sendKeys(login);
     }
 
     public void enterLoginAndPasswordPressLoginButton(String login, String password) {
+         log4j.info("LoginPageHelper: not a login and password(login="+login+", password="+password+")");
         enterLogin(login);
         enterPassword(password);
         pressLoginButton();

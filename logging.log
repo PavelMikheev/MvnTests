@@ -1,0 +1,525 @@
+2020-10-22 20:31:33 INFO  LogLog4j:16 - 
+2020-10-22 20:31:33 INFO  LogLog4j:17 - 
+2020-10-22 20:31:33 INFO  LogLog4j:18 - *******************************************************************
+2020-10-22 20:31:33 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-22 20:31:33 INFO  LogLog4j:20 - *******************************************************************
+2020-10-22 20:31:36 INFO  LogLog4j:42 - ------Test case was finished----
+2020-10-22 20:36:54 INFO  LogLog4j:16 - 
+2020-10-22 20:36:54 INFO  LogLog4j:17 - 
+2020-10-22 20:36:54 INFO  LogLog4j:18 - *******************************************************************
+2020-10-22 20:36:54 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-22 20:36:54 INFO  LogLog4j:20 - *******************************************************************
+2020-10-22 20:36:54 INFO  LogLog4j:42 - Parameter login - 
+2020-10-22 20:36:54 INFO  LogLog4j:42 - Parameter password - Perfect10)
+2020-10-22 20:36:54 INFO  LogLog4j:42 - Parameter message - Missing email
+2020-10-23 15:47:08 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 15:47:16 INFO  LogLog4j:16 - 
+2020-10-23 15:47:16 INFO  LogLog4j:17 - 
+2020-10-23 15:47:16 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 15:47:16 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 15:47:16 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 15:47:16 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=, password=Perfect10))
+2020-10-23 15:47:16 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=)
+2020-10-23 15:47:16 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 15:47:17 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 15:47:17 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 15:47:18 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 15:47:18 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 15:47:18 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 15:47:19 INFO  LogLog4j:42 - ------Test case was finished----
+2020-10-23 15:48:06 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 15:48:15 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=demo-1329045873@gmail.com, password=pass-942690420)
+2020-10-23 15:48:15 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=demo-1329045873@gmail.com)
+2020-10-23 15:48:15 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 15:48:17 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=pass-942690420)
+2020-10-23 15:48:17 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 15:48:19 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 15:48:19 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 15:48:19 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 15:48:50 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 15:49:03 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=demo-1320879573@gmail.com, password=pass-675741497)
+2020-10-23 15:49:03 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=demo-1320879573@gmail.com)
+2020-10-23 15:49:03 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 15:49:04 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=pass-675741497)
+2020-10-23 15:49:04 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 15:49:05 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 15:49:05 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 15:49:05 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 15:50:36 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 15:51:07 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=demo-2147286575@gmail.com, password=pass-252122580)
+2020-10-23 15:51:07 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=demo-2147286575@gmail.com)
+2020-10-23 15:51:07 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 15:51:10 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=pass-252122580)
+2020-10-23 15:51:10 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 15:51:12 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 15:51:12 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 15:51:12 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 15:52:18 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:00:25 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:00:33 INFO  LogLog4j:16 - 
+2020-10-23 16:00:33 INFO  LogLog4j:17 - 
+2020-10-23 16:00:33 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 16:00:33 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 16:00:33 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 16:00:33 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=, password=Perfect10))
+2020-10-23 16:00:33 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=)
+2020-10-23 16:00:33 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:00:33 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 16:00:33 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:00:35 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:00:35 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:00:35 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:00:35 INFO  LogLog4j:42 - ------Test case was finished----
+2020-10-23 16:01:10 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:01:16 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=demo-760460869@gmail.com, password=pass1502381171)
+2020-10-23 16:01:16 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=demo-760460869@gmail.com)
+2020-10-23 16:01:16 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:01:17 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=pass1502381171)
+2020-10-23 16:01:17 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:01:18 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:01:18 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:01:19 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:12:24 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:12:31 INFO  LogLog4j:16 - 
+2020-10-23 16:12:31 INFO  LogLog4j:17 - 
+2020-10-23 16:12:31 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 16:12:31 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 16:12:31 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 16:12:31 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=, password=Perfect10))
+2020-10-23 16:12:31 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=)
+2020-10-23 16:12:31 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:12:32 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 16:12:32 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:12:33 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:12:33 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:12:33 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:12:33 INFO  LogLog4j:42 - ------Test case was finished----
+2020-10-23 16:13:07 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:13:15 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=demo504699350@gmail.com, password=pass-56128443)
+2020-10-23 16:13:15 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=demo504699350@gmail.com)
+2020-10-23 16:13:15 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:13:16 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=pass-56128443)
+2020-10-23 16:13:16 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:13:17 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:13:17 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:13:17 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:13:43 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:13:48 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=demo-1144983875@gmail.com, password=pass-616053985)
+2020-10-23 16:13:48 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=demo-1144983875@gmail.com)
+2020-10-23 16:13:48 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:13:49 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=pass-616053985)
+2020-10-23 16:13:49 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:13:50 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:13:50 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:13:50 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:14:16 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:14:22 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=demo164238316@gmail.com, password=pass1491551959)
+2020-10-23 16:14:22 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=demo164238316@gmail.com)
+2020-10-23 16:14:22 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:14:23 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=pass1491551959)
+2020-10-23 16:14:23 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:14:24 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:14:24 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:14:24 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:14:52 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:14:59 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=demo-1250723207@gmail.com, password=pass-864129575)
+2020-10-23 16:14:59 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=demo-1250723207@gmail.com)
+2020-10-23 16:14:59 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:15:00 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=pass-864129575)
+2020-10-23 16:15:00 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:15:01 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:15:01 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:15:02 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:15:28 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:15:34 INFO  LogLog4j:16 - 
+2020-10-23 16:15:34 INFO  LogLog4j:17 - 
+2020-10-23 16:15:34 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 16:15:34 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 16:15:34 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 16:15:34 INFO  LogLog4j:42 - Parameter login - 
+2020-10-23 16:15:34 INFO  LogLog4j:42 - Parameter password - Perfect10)
+2020-10-23 16:15:34 INFO  LogLog4j:42 - Parameter message - Missing email
+2020-10-23 16:15:34 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=, password=Perfect10))
+2020-10-23 16:15:34 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=)
+2020-10-23 16:15:34 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:15:35 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 16:15:35 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:15:36 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:15:36 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:15:36 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:16:02 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:16:12 INFO  LogLog4j:16 - 
+2020-10-23 16:16:12 INFO  LogLog4j:17 - 
+2020-10-23 16:16:12 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 16:16:12 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 16:16:12 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 16:16:12 INFO  LogLog4j:42 - Parameter login - FFEFWF
+2020-10-23 16:16:12 INFO  LogLog4j:42 - Parameter password - Perfect10)
+2020-10-23 16:16:12 INFO  LogLog4j:42 - Parameter message - There isn't an account for this username
+2020-10-23 16:16:12 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=FFEFWF, password=Perfect10))
+2020-10-23 16:16:12 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=FFEFWF)
+2020-10-23 16:16:12 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:16:13 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 16:16:13 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:16:14 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:16:14 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:16:15 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:16:59 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:17:06 INFO  LogLog4j:16 - 
+2020-10-23 16:17:06 INFO  LogLog4j:17 - 
+2020-10-23 16:17:06 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 16:17:06 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 16:17:06 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 16:17:06 INFO  LogLog4j:42 - Parameter login - mikheev65@gma
+2020-10-23 16:17:06 INFO  LogLog4j:42 - Parameter password - Perfect10)
+2020-10-23 16:17:06 INFO  LogLog4j:42 - Parameter message - There isn't an account for this email
+2020-10-23 16:17:06 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=mikheev65@gma, password=Perfect10))
+2020-10-23 16:17:06 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=mikheev65@gma)
+2020-10-23 16:17:06 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:17:07 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 16:17:07 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:17:08 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:17:08 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:17:09 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:54:36 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 16:54:46 INFO  LogLog4j:16 - 
+2020-10-23 16:54:46 INFO  LogLog4j:17 - 
+2020-10-23 16:54:46 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 16:54:46 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 16:54:46 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 16:54:46 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=, password=Perfect10))
+2020-10-23 16:54:46 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=)
+2020-10-23 16:54:46 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 16:54:46 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 16:54:46 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 16:54:48 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 16:54:48 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 16:54:48 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 16:54:48 INFO  LogLog4j:42 - ------Test case was finished----
+2020-10-23 17:21:01 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 17:21:10 INFO  LogLog4j:16 - 
+2020-10-23 17:21:10 INFO  LogLog4j:17 - 
+2020-10-23 17:21:10 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 17:21:10 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 17:21:10 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 17:21:10 INFO  LogLog4j:42 - Parameter login - 
+2020-10-23 17:21:10 INFO  LogLog4j:42 - Parameter password - Perfect10)
+2020-10-23 17:21:10 INFO  LogLog4j:42 - Parameter message - Missing email
+2020-10-23 17:21:10 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=, password=Perfect10))
+2020-10-23 17:21:10 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=)
+2020-10-23 17:21:10 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 17:21:10 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 17:21:10 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 17:21:11 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 17:21:11 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 17:21:12 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 17:21:39 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 17:21:45 INFO  LogLog4j:16 - 
+2020-10-23 17:21:45 INFO  LogLog4j:17 - 
+2020-10-23 17:21:45 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 17:21:45 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 17:21:45 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 17:21:45 INFO  LogLog4j:42 - Parameter login - FFEFWF
+2020-10-23 17:21:45 INFO  LogLog4j:42 - Parameter password - Perfect10)
+2020-10-23 17:21:45 INFO  LogLog4j:42 - Parameter message - There isn't an account for this username
+2020-10-23 17:21:45 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=FFEFWF, password=Perfect10))
+2020-10-23 17:21:45 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=FFEFWF)
+2020-10-23 17:21:45 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 17:21:46 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 17:21:46 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 17:21:47 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 17:21:47 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 17:21:47 INFO  LogLog4j:42 - Click on the login button 
+2020-10-23 17:22:15 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-23 17:22:21 INFO  LogLog4j:16 - 
+2020-10-23 17:22:21 INFO  LogLog4j:17 - 
+2020-10-23 17:22:21 INFO  LogLog4j:18 - *******************************************************************
+2020-10-23 17:22:21 INFO  LogLog4j:19 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-23 17:22:21 INFO  LogLog4j:20 - *******************************************************************
+2020-10-23 17:22:21 INFO  LogLog4j:42 - Parameter login - mikheev65@gma
+2020-10-23 17:22:21 INFO  LogLog4j:42 - Parameter password - Perfect10)
+2020-10-23 17:22:21 INFO  LogLog4j:42 - Parameter message - There isn't an account for this email
+2020-10-23 17:22:21 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=mikheev65@gma, password=Perfect10))
+2020-10-23 17:22:21 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=mikheev65@gma)
+2020-10-23 17:22:21 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-23 17:22:22 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-23 17:22:22 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-23 17:22:23 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-23 17:22:23 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-23 17:22:24 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:17:25 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 11:17:32 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=password1)
+2020-10-24 11:17:32 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:17:32 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:17:33 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=password1)
+2020-10-24 11:17:33 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:17:34 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:17:34 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:17:34 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:19:16 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 11:19:23 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 11:19:23 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:19:23 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:19:24 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 11:19:24 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:19:25 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:19:25 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:19:25 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:20:30 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 11:20:37 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 11:20:37 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:20:37 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:20:38 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 11:20:38 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:20:39 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:20:39 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:20:39 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:21:25 INFO  LogLog4j:42 - LoginTest:@BeforeMethod initTests()
+2020-10-24 11:21:32 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=dada@mail.ru, password=45456)
+2020-10-24 11:21:32 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=dada@mail.ru)
+2020-10-24 11:21:32 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:21:33 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=45456)
+2020-10-24 11:21:33 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:21:34 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:21:34 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:21:34 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:30:23 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 11:30:23 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:30:23 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:30:24 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 11:30:24 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:30:26 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:30:26 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:30:26 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:31:36 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 11:31:36 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:31:36 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:31:38 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 11:31:38 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:31:40 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:31:40 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:31:40 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:45:04 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 11:45:04 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:45:04 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:45:05 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 11:45:05 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:45:06 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:45:06 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:45:07 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:46:11 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 11:46:11 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:46:11 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:46:12 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 11:46:12 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:46:13 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:46:13 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:46:13 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:55:21 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 11:55:21 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:55:21 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:55:22 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 11:55:22 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:55:23 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:55:23 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:55:24 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 11:56:27 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 11:56:27 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 11:56:27 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 11:56:29 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 11:56:29 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 11:56:30 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 11:56:30 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 11:56:30 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 12:03:31 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 12:03:31 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 12:03:31 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 12:03:32 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 12:03:32 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 12:03:33 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 12:03:33 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 12:03:34 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 12:04:44 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 12:04:44 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 12:04:44 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 12:04:45 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 12:04:45 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 12:04:46 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 12:04:46 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 12:04:46 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 12:07:07 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 12:07:07 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 12:07:07 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 12:07:08 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 12:07:08 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 12:07:09 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 12:07:09 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 12:07:09 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 12:08:15 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 12:08:15 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 12:08:15 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 12:08:16 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 12:08:16 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 12:08:18 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 12:08:18 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 12:08:18 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:04:12 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:04:12 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:04:12 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:04:13 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:04:13 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:04:14 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:04:14 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:04:14 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:05:29 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:05:29 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:05:29 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:05:30 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:05:30 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:05:31 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:05:31 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:05:31 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:06:49 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:06:49 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:06:49 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:06:49 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:06:49 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:06:51 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:06:51 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:06:51 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:08:23 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:08:23 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:08:23 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:08:24 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:08:24 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:08:25 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:08:25 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:08:26 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:21:11 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:21:11 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:21:11 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:21:12 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:21:12 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:21:13 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:21:13 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:21:13 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:22:29 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:22:29 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:22:29 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:22:30 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:22:30 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:22:31 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:22:31 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:22:31 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:46:26 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:46:26 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:46:26 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:46:27 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:46:27 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:46:30 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:46:30 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:46:30 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:48:48 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:48:48 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:48:48 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:48:49 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:48:49 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:48:50 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:48:50 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:48:50 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:50:29 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:50:29 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:50:29 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:50:29 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:50:29 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:50:31 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:50:31 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:50:31 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 13:51:59 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 13:51:59 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 13:51:59 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 13:52:00 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 13:52:00 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 13:52:01 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 13:52:01 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 13:52:01 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 21:48:29 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 21:48:29 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 21:48:29 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 21:48:30 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 21:48:30 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 21:48:31 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 21:48:31 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 21:48:31 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 21:51:29 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 21:51:29 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 21:51:29 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 21:51:30 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 21:51:30 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 21:51:31 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 21:51:31 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 21:51:31 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 21:53:00 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 21:53:00 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 21:53:00 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 21:53:01 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 21:53:01 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 21:53:02 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 21:53:02 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 21:53:02 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 21:58:28 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 21:58:28 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 21:58:28 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 21:58:29 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 21:58:29 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 21:58:30 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 21:58:30 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 21:58:31 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 22:01:42 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 22:01:42 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 22:01:42 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 22:01:43 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 22:01:43 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 22:01:44 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 22:01:44 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 22:01:44 INFO  LogLog4j:42 - Click on the login button 
+2020-10-24 22:06:17 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-24 22:06:17 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-24 22:06:17 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-24 22:06:18 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-24 22:06:18 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-24 22:06:19 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-24 22:06:19 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-24 22:06:20 INFO  LogLog4j:42 - Click on the login button 
+2020-10-25 19:08:31 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-25 19:08:31 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-25 19:08:31 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-25 19:08:33 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-25 19:08:33 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-25 19:08:34 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-25 19:08:34 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-25 19:08:34 INFO  LogLog4j:42 - Click on the login button 
+2020-10-25 19:09:43 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-25 19:09:43 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-25 19:09:43 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-25 19:09:44 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-25 19:09:44 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-25 19:09:45 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-25 19:09:45 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-25 19:09:45 INFO  LogLog4j:42 - Click on the login button 
+2020-10-25 19:10:56 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-25 19:10:56 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-25 19:10:56 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-25 19:10:57 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-25 19:10:57 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-25 19:10:58 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-25 19:10:58 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-25 19:10:58 INFO  LogLog4j:42 - Click on the login button 
+2020-10-25 19:12:02 INFO  LogLog4j:42 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=Perfect10))
+2020-10-25 19:12:02 INFO  LogLog4j:42 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-10-25 19:12:02 INFO  LogLog4j:42 - Enter login value to the login field 
+2020-10-25 19:12:03 INFO  LogLog4j:42 - LoginPageHelper: not a password(password=Perfect10))
+2020-10-25 19:12:03 INFO  LogLog4j:42 - Enter password value to the password field 
+2020-10-25 19:12:04 INFO  LogLog4j:42 - LoginPageHelper: pressLoginButton()
+2020-10-25 19:12:04 INFO  LogLog4j:42 - Wait 5 sec 
+2020-10-25 19:12:04 INFO  LogLog4j:42 - Click on the login button 
