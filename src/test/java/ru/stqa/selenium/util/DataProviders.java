@@ -75,15 +75,17 @@ public class DataProviders {
     public static String generateRandomListName(){
     //private Object generateRandomListName() {
 
-        Random gen = new Random();
         char[] alphabet =
                 "abcdefghijklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ1234567890".toCharArray();
-      String result = "";
-       for (int i=0; i < 8; i++) {
+                 Random random = new Random();
+                 Random gen = new Random();
+                int num = 2 + random.nextInt(9 - 2);
+                String result = "";
+                   for (int i=0; i < num; i++) {
         result = result + alphabet[gen.nextInt(alphabet.length)];
 
-               }
-           return result;
+              }
+          return result;
 
        // return new Random().nextInt() + "@gmail.com";
     }

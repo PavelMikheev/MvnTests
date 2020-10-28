@@ -32,7 +32,7 @@ public class LoginTests extends TestBase {
     public void loginNegativeLoginEmpty() {
         log4j.startTestCase("loginNegativeLoginEmpty()");
         loginPage.enterLoginAndPasswordPressLoginButton("", PASSWORD);
-        log4j.info("------Test case was finished----");
+        log4j.endTestCase();
         Assert.assertEquals(loginPage.getErrorMessage(), "Missing email");
 
 
@@ -48,6 +48,7 @@ public class LoginTests extends TestBase {
 
         loginPage.enterLoginAndPasswordPressLoginButton(login, password);
        Assert.assertEquals(loginPage.getErrorMessage(), message);
+        log4j.endTestCase2();
 
 
     }

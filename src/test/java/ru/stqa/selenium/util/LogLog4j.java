@@ -35,6 +35,11 @@ public class LogLog4j {
 
     }
 
+    public static void endTestCase2(){
+        Log.info("-----------------Test case was finished-------------" );
+
+    }
+
     // Need to create these methods, so that they can be called
 
     public static void info(String message) {
