@@ -20,6 +20,7 @@ public class BoardsPageHelper extends PageBase {
 
     public void openCurrentBoardPage(String boardName) {
         WebElement board = driver.findElement(By.xpath("//li[@class='boards-page-board-section-list-item'][.//div[@title ='" + boardName + "']]"));
+        waitUntilElementsAreVisible(By.xpath("//li[@class='boards-page-board-section-list-item']"), 20);
         board.click();
     }
 

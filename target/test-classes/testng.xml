@@ -2,8 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Tests" verbose="5">
   <test name="Test1">
+    <groups>
+      <run>
+        <include name = "smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="ru.stqa.selenium.tests.TestBase"/>
-    </classes>
+      <class name="ru.stqa.selenium.tests.LoginTests"/>
+     </classes>
   </test>  
 </suite>

@@ -14,7 +14,7 @@ public class ActivityTests extends TestBase {
     HomePageHelper homePage;
     ActivityHelper activityMenu;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void initTests() {
         loginPage = PageFactory.initElements (driver, LoginPageHelper.class);
         boardsPage = PageFactory.initElements(driver, BoardsPageHelper.class);

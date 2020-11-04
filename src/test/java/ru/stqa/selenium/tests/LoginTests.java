@@ -6,8 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.selenium.pages.*;
-import org.example.util.DataProviders;
 
+import ru.stqa.selenium.util.DataProviders;
 
 
 public class LoginTests extends TestBase {
@@ -16,7 +16,7 @@ public class LoginTests extends TestBase {
     HomePageHelper homePage;
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void initTests() {
         log4j.info("LoginTest:@BeforeMethod initTests()");
         loginPage = PageFactory.initElements (driver, LoginPageHelper.class);
@@ -53,16 +53,16 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderThird")
+    @Test(groups = {"smoke", "regression"}, dataProviderClass = DataProviders.class,dataProvider = "dataProviderThird")
     public void loginNegativeLoginEmpty3(String login, String password) {
         loginPage.enterLoginAndPasswordPressLoginButton(login, password);
-        Assert.assertEquals(loginPage.getErrorMessage(), "There isn't an account for this username");
+        Assert.assertEquals(loginPage.getErrorMessage(), "There isn't an account for this email");
     }
 
 
 
 
-    @Test
+    @Test(groups = {"smoke"})
     public void PasswordIncorrect() {
 
         loginPage.enterLoginAndPasswordPressLoginButton(LOGIN,"password1");

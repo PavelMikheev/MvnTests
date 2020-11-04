@@ -64,7 +64,7 @@ public class TestBase {
 
   }
 
-  @BeforeSuite
+  @BeforeSuite(alwaysRun = true)
   public void initTestSuite() throws IOException {
     SuiteConfiguration config = new SuiteConfiguration();
     baseUrl = config.getProperty("site.url");
@@ -74,7 +74,7 @@ public class TestBase {
     capabilities = config.getCapabilities();
   }
 
-  @BeforeMethod
+  @BeforeMethod(alwaysRun = true)
   public void initWebDriver() {
 
      driver = new EventFiringWebDriver(WebDriverPool.DEFAULT.getDriver(gridHubUrl, capabilities));
@@ -82,7 +82,7 @@ public class TestBase {
      driver.get(baseUrl);
   }
 
-  @AfterMethod
+  @AfterMethod (alwaysRun = true)
   public void finishTest(ITestResult result){
     if(result.getStatus() == ITestResult.FAILURE){
       String screenName = "screen - " + System.currentTimeMillis()+".png";

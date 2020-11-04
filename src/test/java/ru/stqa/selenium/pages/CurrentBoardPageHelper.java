@@ -74,7 +74,7 @@ public class CurrentBoardPageHelper extends PageBase{
     }
 
     public int getQtyOfLists() {
-        System.out.println("Quantity of lists before adding: " + qtyOfLists.getSize());
+       // System.out.println("Quantity of lists before adding: " + qtyOfLists.getSize());
         return driver.findElements(By.xpath("//div[@class='list-header-target js-editing-target']")).size();
 
     }
@@ -119,7 +119,7 @@ public class CurrentBoardPageHelper extends PageBase{
     }
 
     public void addAddCardButton() {
-        waitUntilElementIsClickable(addCardButton, 15);
+        waitUntilElementIsClickable(addCardButtonList.get(0), 15);
         addCardButtonList.get(0).click();
         }
 

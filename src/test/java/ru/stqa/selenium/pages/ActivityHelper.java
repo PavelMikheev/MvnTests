@@ -6,13 +6,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class ActivityHelper extends PageBase {
     @FindBy(xpath = "//div[@class='phenom mod-attachment-type'][1]")
     WebElement lastRecordInActivity;
     @FindBy(className = "_24AWINHReYjNBf")
     WebElement menuButton;
-    @FindBy(xpath = "//span[text()='Activity']//..//span[@class='_1uK2vQ_aMRS2NU']")
-    WebElement activityButton;
+    @FindBy(xpath = "//span[contains(text(),'Activity')]/..")
+    List<WebElement> activityButton;
     @FindBy(xpath = "//li[@class='tabbed-pane-nav-item'][2]")
     WebElement boardActivity;
 
@@ -27,8 +29,8 @@ String tabName;
 
     public void clickActivityButton()  {
 
-      waitUntilElementIsClickable(activityButton, 15);
-        activityButton.click();
+      waitUntilElementIsClickable(activityButton.get(1), 15);
+      activityButton.get(1).click();
 
     }
 
@@ -40,7 +42,7 @@ String tabName;
     public void openMemberMenuButton() {
         waitUntilElementIsClickable(menuButton, 15);
         menuButton.click();
-        waitUntilElementIsVisible(driver.findElement(By.className("_2Un9i9htRmbUrY")),15);
+
     }
 
     public void waitUntilListAdded() {

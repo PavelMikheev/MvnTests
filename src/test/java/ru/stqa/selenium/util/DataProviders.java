@@ -1,4 +1,4 @@
-package org.example.util;
+package ru.stqa.selenium.util;
 
 import org.testng.annotations.DataProvider;
 
@@ -16,6 +16,22 @@ public class DataProviders {
         BufferedReader in = new BufferedReader(new InputStreamReader(
                 DataProviders.class
                         .getResourceAsStream("/dataFirst.data")));
+
+        List<Object[]> userData = new ArrayList<Object[]>();
+        String line = in.readLine();
+        while (line != null) {
+            userData.add(line.split(";"));
+            line = in.readLine();
+        }
+        in.close();
+        return userData.iterator();
+    }
+
+    @DataProvider
+    public static Iterator<Object[]> incorrectLogin() throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(
+                DataProviders.class
+                        .getResourceAsStream("/loginIncorrect.data")));
 
         List<Object[]> userData = new ArrayList<Object[]>();
         String line = in.readLine();
@@ -73,13 +89,11 @@ public class DataProviders {
 
 
     public static String generateRandomListName(){
-    //private Object generateRandomListName() {
-
-        char[] alphabet =
+            char[] alphabet =
                 "abcdefghijklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ1234567890".toCharArray();
                  Random random = new Random();
                  Random gen = new Random();
-                int num = 2 + random.nextInt(9 - 2);
+                int num = 2 + random.nextInt(11 - 2);
                 String result = "";
                    for (int i=0; i < num; i++) {
         result = result + alphabet[gen.nextInt(alphabet.length)];
@@ -87,27 +101,9 @@ public class DataProviders {
               }
           return result;
 
-       // return new Random().nextInt() + "@gmail.com";
     }
 
 
-
-
-  /* @DataProvider
-    public static Iterator<Object[]> dataProviderCreateList() throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(
-                DataProviders.class
-                        .getResourceAsStream("/createList.data")));
-
-        List<Object[]> userData = new ArrayList<Object[]>();
-        String line = in.readLine();
-        while (line != null) {
-            userData.add(line.split(";"));
-            line = in.readLine();
-        }
-        in.close();
-        return userData.iterator();
-    } */
 
 
 }

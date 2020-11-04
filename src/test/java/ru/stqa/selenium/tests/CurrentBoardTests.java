@@ -6,7 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.selenium.pages.*;
-import org.example.util.DataProviders;
+import ru.stqa.selenium.util.DataProviders;
+//import org.example.util.DataProviders;
 
 
 public class CurrentBoardTests extends TestBase {
@@ -17,7 +18,7 @@ HomePageHelper homePage;
 ActivityHelper activityMenu;
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void initTests() {
         loginPage = PageFactory.initElements (driver, LoginPageHelper.class);
         boardsPage = PageFactory.initElements(driver, BoardsPageHelper.class);
@@ -33,24 +34,24 @@ ActivityHelper activityMenu;
        qaHaifa7currentBoard.waitUntilPageIsLoaded();
     }
 
-    @Test
+    @Test (groups = {"smoke"})
     public void  isCorrectCurrentBoard(){
         Assert.assertEquals(qaHaifa7currentBoard.getCurrentBoardHeader(),
                 "QA Haifa7", "The header of the script is not 'QA Haifa7'");
     }
 
-    @Test
+    @Test (groups = {"regression"})
     public void  isCorrectCurrentBoard2(){
         Assert.assertTrue(qaHaifa7currentBoard.isCorrectCurrentBoard(),
                  "The header of the script is not 'QA Haifa7'");
     }
 
-    @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderCreateList")
+    @Test(groups = {"smoke", "regressopn"}, dataProviderClass = DataProviders.class,dataProvider = "dataProviderCreateList")
     public void NewListPositiveTest(String name) {
 
         int qtyListsBeforeAdding = qaHaifa7currentBoard.getQtyOfLists();
         qaHaifa7currentBoard.addNewListInBoard(name);
-      //activityMenu.waitUntilListAdded();
+
         int qtyListAfterAdding = qaHaifa7currentBoard.getQtyOfLists();
         Assert.assertEquals(qtyListAfterAdding, qtyListsBeforeAdding+1);
     }

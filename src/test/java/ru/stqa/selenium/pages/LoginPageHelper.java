@@ -44,12 +44,18 @@ public class LoginPageHelper extends PageBase{
         return errorMessage.getText();
     }
 
-    public void pressLoginButton() {
+    public LoginPageHelper pressLoginButton() {
         log4j.info("LoginPageHelper: pressLoginButton()");
         log4j.info("Wait 5 sec ");
-        waitUntilElementIsClickable(loginButton,15);
+        try{
+            Thread.sleep(5000);
+        } catch (InterruptedException e){
+            e.printStackTrace();
+        }
+       // waitUntilElementIsClickable(loginButton,15);
         log4j.info("Click on the login button ");
         loginButton.click();
+        return this;
     }
 
 
