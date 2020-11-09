@@ -4340,3 +4340,330 @@ Session ID: ddcb609b56254e547ba4bf08fc0d0230
 2020-11-04 22:22:08 INFO  LogLog4j:47 - element By.xpath: //a[contains(text(),'What are teams?')]was found
 2020-11-04 22:22:08 INFO  LogLog4j:47 - Find elementBy.xpath: //a[contains(text(),'How to use Trello like a pro')]
 2020-11-04 22:22:08 INFO  LogLog4j:47 - element By.xpath: //a[contains(text(),'How to use Trello like a pro')]was found
+2020-11-09 18:39:29 INFO  LogLog4j:47 - LoginTest:@BeforeMethod initTests()
+2020-11-09 18:39:29 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:39:29 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:39:30 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:39:30 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:39:30 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:39:30 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:39:31 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:32 INFO  LogLog4j:47 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U6L62B3', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\79028\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c192e9ab96dfe94c82f33ac469579290
+*** Element info: {Using=id, value=password}
+2020-11-09 18:39:32 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:34 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:39:36 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:36 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:39:36 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:36 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:39:36 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:39:36 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:39:37 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:39:37 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:39:37 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:39:37 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:39:37 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:39:37 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:39:37 INFO  LogLog4j:47 - LoginPageHelper: not a login and password(login=pavelmikheev65@gmail.com, password=password1)
+2020-11-09 18:39:37 INFO  LogLog4j:47 - LoginPageHelper: not a login(login=pavelmikheev65@gmail.com)
+2020-11-09 18:39:37 INFO  LogLog4j:47 - Enter login value to the login field 
+2020-11-09 18:39:37 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:39:37 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:39:37 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:39:37 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:39:38 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:39:38 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:39:38 INFO  LogLog4j:47 - LoginPageHelper: not a password(password=password1)
+2020-11-09 18:39:38 INFO  LogLog4j:47 - Enter password value to the password field 
+2020-11-09 18:39:38 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:39 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:39:39 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:39 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:39:39 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:39 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:39:39 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:39 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:39:40 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:39:40 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:39:40 INFO  LogLog4j:47 - LoginPageHelper: pressLoginButton()
+2020-11-09 18:39:40 INFO  LogLog4j:47 - Wait 5 sec 
+2020-11-09 18:39:45 INFO  LogLog4j:47 - Click on the login button 
+2020-11-09 18:39:45 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:39:45 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:39:45 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:45 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:46 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:46 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:47 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:47 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:47 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:48 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:48 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:48 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:49 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:49 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:49 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:49 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:50 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:50 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:51 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:51 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:51 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:51 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:52 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:52 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:53 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:53 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:53 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:53 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:54 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:54 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:54 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:55 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:55 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:55 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:56 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:56 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:56 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:56 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:57 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:57 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:58 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:58 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:58 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:58 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:39:59 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:39:59 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:40:00 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:40:00 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:40:00 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:40:00 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:40:01 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:40:01 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:40:01 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:40:01 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:40:01 INFO  LogLog4j:47 - Find elementBy.id: password-error
+2020-11-09 18:40:01 INFO  LogLog4j:47 - element By.id: password-errorwas found
+2020-11-09 18:40:01 INFO  LogLog4j:47 - Find elementBy.id: password-error
+2020-11-09 18:40:01 INFO  LogLog4j:47 - element By.id: password-errorwas found
+2020-11-09 18:40:36 INFO  LogLog4j:47 - LoginTest:@BeforeMethod initTests()
+2020-11-09 18:40:36 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:40:36 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:40:37 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:40:37 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:40:37 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:40:37 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:40:42 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:40:43 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:40:43 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:40:43 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:40:43 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:40:43 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:40:43 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:40:43 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:40:43 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:40:43 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:40:43 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:40:43 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:40:44 INFO  LogLog4j:47 - LoginPageHelper: not a login and password(login=demo1290888609@gmail.com, password=pass-227754817)
+2020-11-09 18:40:44 INFO  LogLog4j:47 - LoginPageHelper: not a login(login=demo1290888609@gmail.com)
+2020-11-09 18:40:44 INFO  LogLog4j:47 - Enter login value to the login field 
+2020-11-09 18:40:44 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:40:44 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:40:44 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:40:44 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:40:44 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:40:44 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:40:45 INFO  LogLog4j:47 - LoginPageHelper: not a password(password=pass-227754817)
+2020-11-09 18:40:45 INFO  LogLog4j:47 - Enter password value to the password field 
+2020-11-09 18:40:45 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:40:45 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:40:45 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:40:45 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:40:45 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:40:45 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:40:45 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:40:45 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:40:46 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:40:46 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:40:46 INFO  LogLog4j:47 - LoginPageHelper: pressLoginButton()
+2020-11-09 18:40:46 INFO  LogLog4j:47 - Wait 5 sec 
+2020-11-09 18:40:51 INFO  LogLog4j:47 - Click on the login button 
+2020-11-09 18:40:51 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:40:51 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:40:52 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:40:52 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:40:52 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:40:53 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:41:20 INFO  LogLog4j:47 - LoginTest:@BeforeMethod initTests()
+2020-11-09 18:41:20 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:41:20 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:41:20 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:41:20 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:41:20 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:41:21 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:41:22 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:23 INFO  LogLog4j:47 - Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U6L62B3', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\79028\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 51740ec1c6c0a114bf749d855cfc51cb
+*** Element info: {Using=id, value=password}
+2020-11-09 18:41:23 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:25 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:41:26 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:26 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:41:26 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:26 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:41:26 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:41:26 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:41:26 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:41:26 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:41:26 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:41:26 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:41:26 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:41:26 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:41:26 INFO  LogLog4j:47 - LoginPageHelper: not a login and password(login=demo-455162652@gmail.com, password=pass1138348479)
+2020-11-09 18:41:26 INFO  LogLog4j:47 - LoginPageHelper: not a login(login=demo-455162652@gmail.com)
+2020-11-09 18:41:26 INFO  LogLog4j:47 - Enter login value to the login field 
+2020-11-09 18:41:26 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:41:27 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:41:27 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:41:27 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:41:27 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:41:27 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:41:28 INFO  LogLog4j:47 - LoginPageHelper: not a password(password=pass1138348479)
+2020-11-09 18:41:28 INFO  LogLog4j:47 - Enter password value to the password field 
+2020-11-09 18:41:28 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:28 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:41:28 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:28 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:41:28 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:28 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:41:28 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:28 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:41:28 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:41:29 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:41:29 INFO  LogLog4j:47 - LoginPageHelper: pressLoginButton()
+2020-11-09 18:41:29 INFO  LogLog4j:47 - Wait 5 sec 
+2020-11-09 18:41:34 INFO  LogLog4j:47 - Click on the login button 
+2020-11-09 18:41:34 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:41:34 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:41:34 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:41:34 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:41:35 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:41:35 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:41:35 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:41:35 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:42:24 INFO  LogLog4j:47 - LoginTest:@BeforeMethod initTests()
+2020-11-09 18:42:24 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:42:25 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:42:25 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:42:26 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:42:26 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:42:27 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:42:33 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:42:33 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:42:33 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:42:33 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:42:34 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:42:34 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:42:34 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:42:34 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:42:34 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:42:35 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:42:35 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:42:35 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:42:35 INFO  LogLog4j:47 - LoginPageHelper: not a login and password(login=demo2082165482@gmail.com, password=pass1821217158)
+2020-11-09 18:42:35 INFO  LogLog4j:47 - LoginPageHelper: not a login(login=demo2082165482@gmail.com)
+2020-11-09 18:42:35 INFO  LogLog4j:47 - Enter login value to the login field 
+2020-11-09 18:42:35 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:42:35 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:42:36 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:42:36 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:42:36 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:42:36 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:42:37 INFO  LogLog4j:47 - LoginPageHelper: not a password(password=pass1821217158)
+2020-11-09 18:42:37 INFO  LogLog4j:47 - Enter password value to the password field 
+2020-11-09 18:42:37 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:42:37 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:42:37 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:42:37 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:42:37 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:42:38 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:42:38 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:42:38 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:42:39 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:42:39 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:42:39 INFO  LogLog4j:47 - LoginPageHelper: pressLoginButton()
+2020-11-09 18:42:39 INFO  LogLog4j:47 - Wait 5 sec 
+2020-11-09 18:42:44 INFO  LogLog4j:47 - Click on the login button 
+2020-11-09 18:42:44 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:42:44 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:42:44 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:42:44 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:42:45 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:42:45 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:42:45 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:42:45 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:43:12 INFO  LogLog4j:47 - LoginTest:@BeforeMethod initTests()
+2020-11-09 18:43:12 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:43:12 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:43:12 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:43:12 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:43:12 INFO  LogLog4j:47 - Find elementBy.xpath: //a[@class='btn btn-sm btn-link text-white']
+2020-11-09 18:43:12 INFO  LogLog4j:47 - element By.xpath: //a[@class='btn btn-sm btn-link text-white']was found
+2020-11-09 18:43:17 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:43:17 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:43:18 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:43:18 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:43:18 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:43:18 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:43:18 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:43:18 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:43:18 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:43:18 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:43:18 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:43:18 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:43:18 INFO  LogLog4j:47 - LoginPageHelper: not a login and password(login=demo-1912707304@gmail.com, password=pass-88867114)
+2020-11-09 18:43:18 INFO  LogLog4j:47 - LoginPageHelper: not a login(login=demo-1912707304@gmail.com)
+2020-11-09 18:43:18 INFO  LogLog4j:47 - Enter login value to the login field 
+2020-11-09 18:43:18 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:43:18 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:43:19 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:43:19 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:43:19 INFO  LogLog4j:47 - Find elementBy.id: user
+2020-11-09 18:43:19 INFO  LogLog4j:47 - element By.id: userwas found
+2020-11-09 18:43:20 INFO  LogLog4j:47 - LoginPageHelper: not a password(password=pass-88867114)
+2020-11-09 18:43:20 INFO  LogLog4j:47 - Enter password value to the password field 
+2020-11-09 18:43:20 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:43:20 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:43:20 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:43:20 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:43:20 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:43:20 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:43:20 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:43:20 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:43:20 INFO  LogLog4j:47 - Find elementBy.id: password
+2020-11-09 18:43:20 INFO  LogLog4j:47 - element By.id: passwordwas found
+2020-11-09 18:43:21 INFO  LogLog4j:47 - LoginPageHelper: pressLoginButton()
+2020-11-09 18:43:21 INFO  LogLog4j:47 - Wait 5 sec 
+2020-11-09 18:43:26 INFO  LogLog4j:47 - Click on the login button 
+2020-11-09 18:43:26 INFO  LogLog4j:47 - Find elementBy.id: login
+2020-11-09 18:43:26 INFO  LogLog4j:47 - element By.id: loginwas found
+2020-11-09 18:43:26 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:43:26 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:43:27 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:43:27 INFO  LogLog4j:47 - element By.id: errorwas found
+2020-11-09 18:43:27 INFO  LogLog4j:47 - Find elementBy.id: error
+2020-11-09 18:43:27 INFO  LogLog4j:47 - element By.id: errorwas found
